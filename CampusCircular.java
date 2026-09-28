@@ -46,6 +46,22 @@ class CampusCircular{
 
         submit.setBounds(130, 310, 100, 30);
         clear.setBounds(250, 310, 100, 30);
+// Add components to JFrame
+        f.add(title);
+        f.add(l1);
+        f.add(txt);
+        f.add(l2);
+        f.add(area);
+        f.add(l3);
+        f.add(pwd);
+        f.add(box);
+        f.add(submit);
+        f.add(clear);
 
-  }
+        // JFrame settings
+        f.setSize(500, 400);
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        f.setVisible(true);
+    }
 }
+ 
