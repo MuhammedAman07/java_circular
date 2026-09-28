@@ -30,7 +30,22 @@ class CampusCircular{
 
         // Set layout
         f.setLayout(null);
+      
+        // Set positions
+        title.setBounds(100, 30, 300, 30);
 
-        
-    }
+        l1.setBounds(40, 80, 120, 25);
+        txt.setBounds(160, 80, 250, 25);
+
+        l2.setBounds(40, 120, 120, 25);
+        area.setBounds(160, 120, 250, 80);
+
+        l3.setBounds(40, 220, 120, 25);
+        pwd.setBounds(160, 220, 150, 25);
+
+        box.setBounds(160, 260, 150, 25);
+
+        submit.setBounds(130, 310, 100, 30);
+        clear.setBounds(250, 310, 100, 30); 
+        }
 }
